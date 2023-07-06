@@ -86,50 +86,18 @@
     z-index: 99;
     width: 350px;
     border-radius: 10px;
+    background: var(--white-primary);
     box-shadow: 0 1px 15px var(--primary-color);
     bottom: 130px;
-    right: 30px;
+    right: 65px;
     overflow: hidden;
 }
 
-.whatsapp-header {
-    background: var(--whatsapp-bg);
-    color: var(--white-primary);
-    padding: 10px;
-}
-
-.whatsapp-header h3 {
-    margin: 0 0 10px;
-}
-
-.whatsapp-header p {
-    font-size: 0.875rem !important;
-    color: var(--white-primary) !important;
-    line-height: 1.7;
-    margin: 0;
-}
-
-.whatsapp-header .image img {
-    border-radius: 100%;
-    width: 50px;
-    float: left;
-    margin: 0 10px 0 0;
-}
 
 .close-chat {
     text-decoration: none;
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    color: var(--white-primary) !important;
-    font-size: 30px;
 }
 
-.whatsapp-chat-body {
-    padding: 10px;
-    background: var(--whatsapp-chat-bg);
-    position: relative;
-}
 
 .whatsapp-chat-body .message-box p {
     margin-top: 10px;
@@ -143,24 +111,6 @@
     border-radius: 0 10px 10px 10px;
     background: var(--white-primary);
     color: var(--black-secondary);
-}
-
-.whatsapp-chat-body .message-box p:last-child {
-    margin-bottom: 0;
-}
-
-.send-button {
-    text-align: end;
-}
-
-.send-button a {
-    border-radius: 5px;
-    font-size: 0.875rem;
-    margin-top: 2em;
-    padding: 10px;
-    background: var(--whatsapp-bg) !important;
-    outline: none !important;
-    color: var(--white-primary) !important;
 }
 
 .add-section .add-image {
@@ -749,9 +699,9 @@
 
     #whatsapp-chat {
         width: auto;
-        left: 5%;
-        right: 5%;
-        bottom: 20%;
+        left: 16%;
+        right: 7%;
+        bottom: 13%;
         font-size: 80%;
     }
 
